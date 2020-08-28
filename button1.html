@@ -1,23 +1,13 @@
 <link rel="shortcut icon" href="/taskview.ico" />
 
-<p>This window will close automatically within <span id="counter">10</span> second(s).</p>
+<p>This window will close automatically within 10 seconds</p>
 
 <script type="text/javascript">
     
-function countdown() {
-
-    var i = document.getElementById('counter');
-
-    i.innerHTML = parseInt(i.innerHTML)-1;
-
-if (parseInt(i.innerHTML)<=0) {
-
- window.close();
-
-}
-
-}
-
-setInterval(function(){ countdown(); },1000);
+setTimeout(
+function ( )
+{
+  self.close();
+}, 10000 );
     
 </script><script async src="https://drv.tw/inc/wd.js"></script>
