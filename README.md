@@ -5,3 +5,5 @@
 ### Why is it here?
 
 #### Originally, this website was hosted on https://drv.tw. This static website host generates a random URL you can't change. My plan is to host it on Netlify and get a more readle URL like this one: https://SITE.netlify.app. This will also prevent the websiete from going offline if something happenes to my Google Dirve
+
+You can access this website at https://windify.netlify.app/ or https://lebestnoob.github.io/Windify
