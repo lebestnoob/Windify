@@ -1,10 +1,11 @@
 ---
 title: The Status of Windify
 ---
-
+<html>
+	<head>
 <title> The Status of Windify </title>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
+	</head>
 <style>
 img {
   -webkit-filter: drop-shadow(1.5px 1.5px 2px black);
@@ -163,7 +164,6 @@ html {
   };
   </script>
  
-<body>
 # The Status of Windify
 
 ## This website has been deprecated. It is no longer maintained. This may mean the webiste may break in the future. You can access this website at [https://windify.netlify.app/](https://windify.netlify.app/) or [https://lebestnoob.github.io/Windify](https://lebestnoob.github.io/Windify)
@@ -190,4 +190,4 @@ html {
 
 ### Page status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/56822c5c-4821-4707-8ae5-724b9cbb9d02/deploy-status)](https://app.netlify.com/sites/windify/deploys)
-</body>
+</html>
