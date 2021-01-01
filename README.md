@@ -11,7 +11,7 @@ layout: readme
 
 ### Why is it here?
 
-#### Originally, this website was hosted on https://drv.tw. This static website host generates a random URL you can't change. My plan was to host it on Netlify and get a more readle URL like this one: https://SITE.netlify.app. This will also prevent the websiete from going offline if something happenes to my Google Dirve
+#### Originally, this website was hosted on https://drv.tw. This static website host generates a random URL you can't change. My plan was to host it on Netlify and get a more readle URL like this one: https://SITE.netlify.app. This will also prevent the website from going offline if something happenes to my Google Dirve
 <br>
 <br>
 
