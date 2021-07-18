@@ -5,13 +5,13 @@ layout: readme
 
 # The Status of Windify
 
-## This website has been deprecated. It is no longer maintained. This may mean the webiste may break in the future. You can access this website at [https://windify.netlify.app/](https://windify.netlify.app/) or [https://lebestnoob.github.io/Windify](https://lebestnoob.github.io/Windify)
+## This website has been deprecated. It is no longer maintained. This may mean the webiste may break in the future. You can access this website at [https://windify.netlify.app/](https://windify.netlify.app/)
 <br>
 <br>
 
 ### Why is it here?
 
-#### Originally, this website was hosted on https://drv.tw. This static website host generates a random URL you can't change. My plan was to host it on Netlify and get a more readle URL like this one: https://SITE.netlify.app. This will also prevent the website from going offline if something happenes to my Google Dirve
+#### Originally, this website was hosted on https://drv.tw. This static website host generates a random URL you can't change. My plan was to host it on Netlify and get a more readable URL like this one: https://windify.netlify.app. This will also prevent the website from going offline if something happenes to my Google Drive
 <br>
 <br>
 
@@ -29,19 +29,19 @@ layout: readme
 
 ### Can I use your code?
 
-#### Yes, you can. You can fork this website and remake it. Beware that the code I use is outdated and messy. They are no longer supported by W3 standards.
+#### Yes, you can. You can fork this website and remake it. The html I used is using outdated methods and is messy. Most of the site is no longer supported by W3 standards.
 <br>
 <br>
 
 ### Where is the repository?
 
-#### The repository is on github. You can acceess it by going to this link: [https://github.com/lebestnoob/Windify](https://github.com/lebestnoob/Windify)
+#### The repository is on GitHub. You can acceess it by going to this link: [https://github.com/lebestnoob/Windify](https://github.com/lebestnoob/Windify)
 <br>
 <br>
 
 ### How long did it take you to make this?
 
-#### It took me about one week to finish the main part of the website
+#### It took me about one week to finish the main part of the website. 
 <br>
 <br>
 
