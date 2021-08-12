@@ -1,8 +1,3 @@
----
-title: The Status of Windify
-layout: readme
----
-
 # The Status of Windify
 
 ## This website has been deprecated. It is no longer maintained. This may mean the webiste may break in the future. You can access this website at [https://windify.netlify.app/](https://windify.netlify.app/)
