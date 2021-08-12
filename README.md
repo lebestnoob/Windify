@@ -1,6 +1,6 @@
 # The Status of Windify
 
-## This website is no longer maintained. This may mean the webiste may break in the future. You can access this website at [https://windify.netlify.app/](https://windify.netlify.app/)
+## This website is no longer maintained. This may mean the website may break in the future. You can access this website at [https://windify.netlify.app/](https://windify.netlify.app/)
 
 ### Why is it here?
 
