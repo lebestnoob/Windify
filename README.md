@@ -12,7 +12,7 @@
 
 ### Why did I make this?
 
-#### I made this website to try and trick my friends into beliveing I got Windows 10 running on a Chromebook
+#### I made this website to try and trick my friends into beliveing I got Windows running on a Chromebook
 <br>
 <br>
 
@@ -25,12 +25,6 @@
 ### Can I use your code?
 
 #### Yes, you can. You can fork this website and remake it. The html I used is using outdated methods and is messy. Most of the site is no longer supported by W3 standards.
-<br>
-<br>
-
-### Where is the repository?
-
-#### The repository is on GitHub. You can acceess it by going to this link: [https://github.com/lebestnoob/Windify](https://github.com/lebestnoob/Windify)
 <br>
 <br>
 
