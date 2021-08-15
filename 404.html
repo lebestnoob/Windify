@@ -1,69 +1,24 @@
 <!DOCTYPE html>
-<head>
-  <link rel="icon" type="image/png" href="/warning.png"/>
-<body>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
-<script language="JavaScript">
-  /**
-    * Disable right-click of mouse, F12 key, and save key combinations on page
-    * By Arthur Gareginyan (arthurgareginyan@gmail.com)
-    * For full source code, visit https://mycyberuniverse.com
-    */
-  window.onload = function() {
-    document.addEventListener("contextmenu", function(e){
-      e.preventDefault();
-    }, false);
-    document.addEventListener("keydown", function(e) {
-    //document.onkeydown = function(e) {
-      // "I" key
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
-        disabledEvent(e);
-      }
-      // "J" key
-      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-        disabledEvent(e);
-      }
-      // "S" key + macOS
-      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
-        disabledEvent(e);
-      }
-      // "U" key
-      if (e.ctrlKey && e.keyCode == 85) {
-        disabledEvent(e);
-      }
-      // "F12" key
-      if (event.keyCode == 123) {
-        disabledEvent(e);
-      }
-    }, false);
-    function disabledEvent(e){
-      if (e.stopPropagation){
-        e.stopPropagation();
-      } else if (window.event){
-        window.event.cancelBubble = true;
-      }
-      e.preventDefault();
-      return false;
-    }
-  };
-</script>
-<body oncontextmenu="return false;">
-<style>
-html {
- background-color: ##fffff9;
-  font-family: 'Open Sans', sans-serif;
-}
-html {
-  margin-right: 900px;
-  }
-  </style>
-</body>
-
 <html>
 
-<h1>File not found</h1>
-<p><img src="/warning.png" alt="Warning" width="42" height="42" align="middle"> The directory you entered was not found.</p>
+<head>
+    <link rel="icon" type="image/png" href="/warning.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background-color: #fffff9;
+            font-family: 'Open Sans', sans-serif;
+            margin-right: 900px;
+        }
+    </style>
+    <script src="/script.js"></script>
+</head>
 
-<p align="right"><stong> <a href="/index">Ok</stong></p>
+<body oncontextmenu="return false;">
+    <h1>File not found</h1>
+    <p><img src="/warning.png" alt="Warning" width="42" height="42" align="middle"> The directory you entered was not found.</p>
+
+    <p align="right">
+        <stong> <a href="/index">Ok</stong></p>
+</body>
 </html>
