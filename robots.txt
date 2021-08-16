@@ -1,1 +1,1 @@
-Sitemap: http://windify.netlify.app/sitemap.xml
+Sitemap: https://windify.netlify.app/sitemap.xml
