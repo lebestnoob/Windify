@@ -1,6 +1,7 @@
-# The Status of Windify
+# Windify
 
-## This website is no longer actively maintained. You can access it at [https://windify.netlify.app](https://windify.netlify.app/)
+## This site is no longer actively maintained!
+## You can access it at [windify.netlify.app](https://windify.netlify.app/) or [windify.c1.biz](http://windify.c1.biz) (Backup)
 
 ### Why is it here?
 
