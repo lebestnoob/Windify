@@ -1,0 +1,341 @@
+body {
+    padding-top: 15px;
+    margin-left: 20px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1f1f1f;
+    color: white;
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    scrollbar-width: thin;
+    scrollbar-color: #868686;
+    animation: pop-in 0.3s;
+}
+
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+hr {
+    height: 1px;
+    background-color: #fff;
+    border: 1px #fff;
+}
+
+div.user {
+    display: inline;
+    vertical-align: middle;
+}
+
+img.user {
+    border-radius: 50%;
+    align-items: center;
+    vertical-align: middle;
+    width: 64px;
+    height: 64px;
+}
+
+span.user {
+    padding-left: 5px;
+    font-size: 125%;
+}
+
+div.subhead {
+    font-size: 115%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.apps {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    vertical-align: middle;
+}
+
+div.apps:hover,
+div.divider:hover,
+p.footer:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 1);
+}
+
+img.apps {
+    padding-left: 5px;
+    align-items: center;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+}
+
+span.apps,
+span.footer {
+    padding-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-spanner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div.divider {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 42px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 60000px;
+}
+
+div.footer {
+    position: sticky;
+    vertical-align: middle;
+    background-color: #1f1f1f;
+}
+
+p.footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 110%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img.footer {
+    align-items: center;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    padding-left: 5px;
+    filter: invert(100%);
+}
+
+div.navigation {
+    vertical-align: middle;
+    background-color: #1f1f1f;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+img.navigation {
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    filter: invert(100%);
+    padding-left: 5px;
+    margin-top: 2.5px;
+    padding-top: 2.5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+img.navigation:hover {
+    background-color: rgba(000, 000, 000, 0.2);
+}
+
+img.nav2:hover {
+    background-color: rgba(159, 50, 000, 1);
+}
+
+span.navigation {
+    padding-left: 15px;
+    font-size: 150%;
+}
+
+span.navigation2 {
+    padding-left: 30px;
+    font-size: 80%;
+}
+
+div.navigation2 {
+    vertical-align: middle;
+    background-color: #1f1f1f;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+
+div.navcontent {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 120%;
+}
+
+div.smallcontent {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 100%;
+}
+
+span.smallcontent {
+    color: #777;
+}
+
+span.contentlink {
+    color: #60cdff;
+}
+
+span.contentlink:hover {
+    color: #777;
+}
+
+body#navigation {
+    background-color: #000;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div.navfooter {
+    position: static;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    bottom: 0;
+    width: 100%;
+}
+
+div.nav2 {
+    position: fixed;
+}
+
+img.navfooter {
+    align-items: center;
+    vertical-align: middle;
+    filter: invert(100%);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px
+}
+
+body#notfound {
+    background-color: #fff;
+    color: black;
+}
+
+div.navfooter {
+    vertical-align: middle;
+}
+
+img.notfound {
+    align-items: center;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+}
+
+div.notfound {
+    width: 500px;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+div.lost2 {
+    background-color: #f0f0f0;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+span.notfoundbtn {
+    color: black;
+    outline: 2px solid #60cdff;
+    border: 1px dashed black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+span.notfoundbtn:hover {
+    outline: 0.5px solid #60cdff;
+    background-color: rgba(96, 205, 255, 0.2);
+}
+
+div.title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: middle;
+    padding-left: 15px;
+    font-size: 150%;
+    text-align: center;
+}
+
+img.settings {
+    filter: invert(77%) sepia(12%) saturate(3924%) hue-rotate(171deg) brightness(100%) contrast(104%);
+    align-items: center;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: none;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #868686;
+    /* creates padding around scroll thumb */
+}
+
+::-webkit-scrollbar:window-inactive {
+    border: none;
+    background: none;
+    border: none;
+}
+
+::-webkit-scrollbar:hover {
+    width: auto;
+}
+
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-corner:hover {
+    box-shadow: auto;
+    -webkit-border-radius: auto;
+    border-radius: auto;
+    background: #353535;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-border-radius: auto;
+    border-radius: 0px;
+    background: #868686;
+    box-shadow: auto;
+    border: 3px fill #868686;
+    /* creates padding around scroll thumb */
+}

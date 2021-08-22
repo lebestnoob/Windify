@@ -8,195 +8,118 @@
     <meta name="author" content="lebestnoob">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windify</title>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Windify">
+    <meta name="application-name" content="Windify">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <script src="/script.js"></script>
-    <style>
-        .element2 {
-            position: sticky;
-            bottom: 0px;
-            left: 0px;
-            float: left;
-            background-color: #055555
-        }
-        
-        img {
-            -webkit-filter: drop-shadow(.5px .5px 1px black);
-            filter: drop-shadow(.5px .5px 1px black);
-            margin: 5px;
-        }
-        
-        img.user {
-            -webkit-filter: drop-shadow(.5px .5px 1px black);
-            filter: drop-shadow(.5px .5px 1px black);
-            border-radius: 50%;
-        }
-        
-        a:hover {
-            color: #bda4a4;
-            -moz-transition: all 0.2s ease-in;
-            -o-transition: all 0.2s ease-in;
-            -webkit-transition: all 0.2s ease-in;
-            transition: all 0.2s ease-in;
-            filter: drop-shadow(0px 0px 5px #d3d3d3);
-        }
-        
-        .container {
-            position: relative;
-        }
-        
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        body {
-            overflow: scroll;
-            font-family: 'Open Sans', sans-serif;
-        }
-        
-        a:hover {
-            color: #d3d3d3;
-            -moz-transition: all 0.2s ease-in;
-            -o-transition: all 0.2s ease-in;
-            -webkit-transition: all 0.2s ease-in;
-            transition: all 0.2s ease-in;
-            text-shadow: .5px .5px 1px black;
-            text-shadow: 0px 0px 30px #d3d3d3;
-        }
-        
-        .left {
-            display: inline-block;
-            text-align: left;
-            font-size: 16px;
-            line-height: 14px;
-            position: relative;
-            top: 3px;
-        }
-        
-        div {
-            line-height: 40px;
-        }
-        
-        font {
-            margin: 5px;
-        }
-        
-        h1 {
-            text-shadow: .5px .5px 1px black;
-        }
-        
-        p {
-            text-shadow: .5px .5px 1px black;
-        }
-        
-        .disable-selection {
-            user-select: none;
-            -moz-user-select: none;
-            /* Mozilla browsers (e.g. Firefox) */
-            -ms-user-select: none;
-            /* Microsoft browsers (e.g. IE) */
-            -khtml-user-select: none;
-            /* KHTML browsers (e.g. Konqueror) */
-            -webkit-user-select: none;
-            /* WebKit browsers (e.g. Chrome and Safari) and Opera browsers */
-            -webkit-touch-callout: none;
-            /* Disable iOS/Android callouts on touch event */
-        }
-        
-        body {
-            background-color: #055555;
-        }
-    </style>
 </head>
 
-<body oncontextmenu="return false;">
-    <div class="left">
-        <div text-align: center;>
-            <div class="container">
-                <p class="disable-selection"> <img class="user" src="/assets/navigation/login.svg" width="64" height="64" align="middle" onContextMenu="return false;" ondragstart="return false;">
-                    <font size="+2.5"> <span style="color: #ffffff;"><strong>User</strong></span></font>
-            </div>
-        </div>
-        <div class="container">
-            <div class="margin">
-                <p class="disable-selection"><img align="left">
-                    <font size="+1.5"><span style="color: #ffffff;"><strong> Apps </strong></span></font>
-                </p>
-            </div>
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="user">
+        <img class="user" src="/assets/navigation/login.svg">
+        <span class="user">User</span>
+    </div>
 
-            <p>
-                <a href="//www.pixect.com" target="popup" onclick="window.open('//www.pixect.com','name','width=1366,height=768')">
-                    <p class="disable-selection"> <img src="/assets/apps/camera.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;"></a><a href="//www.pixect.com" target="popup" onclick="window.open('//www.pixect.com','name','width=1366,height=768')"
-                    class="disable-selection" style="text-decoration:none;"><span style="color: #ffffff;">Camera</span></a>
+    <div class="subhead">
+        Apps
+    </div>
+    <div class="divider">
+        <span class="apps">A</span>
+    </div>
+    <div class="apps">
+        <a href="//vclock.com/" target="popup" onclick="window.open('//vclock.com/', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/clock.svg"><span class="apps">Alarms & Clock</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">C</span>
+    </div>
+    <div class="apps">
+        <a href="//www.pixect.com/" target="popup" onclick="window.open('//www.pixect.com/', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/camera.svg"><span class="apps">Camera</span></a>
+    </div>
+    <div class="apps">
+        <a href="//www.calculator.net" target="popup" onclick="window.open('//www.calculator.net', 'popUpWindow', 'height=' + screen.height * .70 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/calculator.svg"><span class="apps">Calculator</span></a>
+    </div>
+    <div class="apps">
+        <a href="//office.live.com/start/Calendar.aspx" target="popup" onclick="window.open('//office.live.com/start/Calendar.aspx', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/calendar.svg"><span class="apps">Calendar</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">F</span>
+    </div>
+    <div class="apps">
+        <a href="//filext.com/online-file-viewer.html" target="popup" onclick="window.open('//filext.com/online-file-viewer.html', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/explorer.svg"><span class="apps">File Explorer</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">M</span>
+    </div>
+    <div class="apps">
+        <a href="//outlook.office365.com/mail/inbox" target="popup" onclick="window.open('//outlook.office365.com/mail/inbox', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/mail.svg"><span class="apps">Mail</span></a>
+    </div>
+    <div class="apps">
+        <a href="//www.bing.com/maps" target="popup" onclick="window.open('//www.bing.com/maps', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/maps.svg"><span class="apps">Maps</span></a>
+    </div>
+    <div class="apps">
+        <a href="//bing.com" target="_blank"><img class="apps" src="/assets/apps/edge.svg"><span class="apps">Microsoft Edge</span></a>
+    </div>
+    <div class="apps">
+        <a href="//www.microsoft.com/en-us/store/apps/windows" target="popup" onclick="window.open('//www.microsoft.com/en-us/store/apps/windows', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/store.svg"><span class="apps">Microsoft Store</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">N</span>
+    </div>
+    <div class="apps">
+        <a href="//notepad-online.net" target="popup" onclick="window.open('//notepad-online.net/', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/notepad.svg"><span class="apps">Notepad</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">O</span>
+    </div>
+    <div class="apps">
+        <a href="//onedrive.live.com/about/auth?signin=1" target="popup" onclick="window.open('//onedrive.live.com/about/auth?signin=1', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/onedrive.svg"><span class="apps">OneDrive</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">P</span>
+    </div>
+    <div class="apps">
+        <a href="//jspaint.app" target="popup" onclick="window.open('//jspaint.app', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/paint.svg"><span class="apps">Paint</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">S</span>
+    </div>
+    <div class="apps">
+        <a href="//www.google.com/logos/fnbx/solitaire/standalone.html" target="popup" onclick="window.open('//www.google.com/logos/fnbx/solitaire/standalone.html', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/solitaire.svg"><span class="apps">Solitaire</span></a>
+    </div>
+    <div class="apps">
+        <a href="/settings.html"><span class="link-spanner"></span><img class="apps" src="/assets/apps/settings.svg"><span class="apps">Settings</span></a>
+    </div>
+    <div class="apps">
+        <a href="//note.ly" target="popup" onclick="window.open('//note.ly', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/stickynotes.svg"><span class="apps">Sticky Notes</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">V</span>
+    </div>
+    <div class="apps">
+        <a href="//online-voice-recorder.com" target="popup" onclick="window.open('//online-voice-recorder.com', 'popUpWindow', 'height=' + screen.height * .80 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/recorder.svg"><span class="apps">Voice Recorder</span></a>
+    </div>
+    <div class="divider">
+        <span class="apps">W</span>
+    </div>
+    <div class="apps">
+        <a href="//www.msn.com/weather" target="popup" onclick="window.open('//www.msn.com/weather', 'popUpWindow', 'height=' + screen.height * .90 + ',width=' + screen.width * .80 + ',left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')"><span class="link-spanner"></span><img class="apps" src="/assets/apps/weather.svg"><span class="apps">Weather</span></a>
+    </div>
+    <div class="footer">
+        <hr>
+        <p class="footer">
+            <a href="/settings.html"><span class="link-spanner"></span><img class="footer" src="/assets/navigation/settings.svg"><span class="footer">Settings</span></a>
+        </p>
+    </div>
 
-                <br>
-                <a href="//www.calculator.net" target="popup" onclick="window.open('//www.pixect.com','name','width=1366,height=768')">
-                    <p class="disable-selection">
-                        <p class="disable-selection"><img src="/assets/apps/calculator.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;"><a href="//www.calculator.net" target="popup" onclick="window.open('//www.calculator.net','name','width=1366,height=768')"
-                                class="disable-selection" style="text-decoration:none;"><span style="color: #ffffff;">Calculator</span></a>
-
-                            <br>
-                            <a href="//office.live.com/start/Calendar.aspx" target="popup" onclick="window.open('/calendar.html','name','width=1366,height=768')">
-                                <p class="disable-selection"><img src="/assets/apps/calendar.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;">
-                                    <a href="//office.live.com/start/Calendar.aspx" target="popup" onclick="window.open('//office.live.com/start/Calendar.aspx','name','width=1366,height=768')" style="text-decoration:none;"><span style="color: #ffffff;">Calendar</span></a>
-                                    <br>
-
-                                    <a href="//filext.com/online-file-viewer.html" target="popup" onclick="window.open('//filext.com/online-file-viewer.html','name','width=1366,height=768')">
-                                        <p class="disable-selection"><img src="/assets/apps/explorer.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;"><a href="//filext.com/online-file-viewer.html"
-                                                target="popup" onclick="window.open('//filext.com/online-file-viewer.html','name','width=1366,height=768')" style="text-decoration:none;"><span style="color: #ffffff;">File Explorer</span></a>
-
-                                            <br>
-                                            <a href="//outlook.office365.com/mail/inbox" target="popup" onclick="window.open('//outlook.office365.com/mail/inbox','name','width=1366,height=768')">
-                                                <p class="disable-selection"><img src="/assets/apps/mail.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;"><a href="//outlook.office365.com/mail/inbox"
-                                                        target="popup" onclick="window.open('//outlook.office365.com/mail/inbox','name','width=1366,height=768')" style="text-decoration:none;"><span style="color: #ffffff;">Mail</span></a>
-
-                                                    <br>
-                                                    <a href="//bing.com" target="_blank" rel="noopener">
-                                                        <p class="disable-selection"><img src="/assets/apps/edge.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;">
-                                                            <a href="//bing.com" target="_blank" rel="noopener" style="text-decoration:none;"><span style="color: #ffffff;">Microsoft Edge</span></a>
-
-
-
-                                                            <br>
-                                                            <a href="//www.microsoft.com/en-us/store/apps/windows" target="popup" onclick="window.open('//www.microsoft.com/en-us/store/apps/windows','name','width=1366,height=768')">
-                                                                <p class="disable-selection"><img src="/assets/apps/store.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;">
-                                                                    <a href="//www.microsoft.com/en-us/store/apps/windows" target="popup" onclick="window.open('//www.microsoft.com/en-us/store/apps/windows','name','width=1366,height=768')" style="text-decoration:none;"><span style="color: #ffffff;">Microsoft  Store</span></a>
-
-                                                                    <br>
-                                                                    <a href="//jspaint.app" target="popup" onclick="window.open('//jspaint.app','name','width=1366,height=768')">
-                                                                        <p class="disable-selection">
-                                                                            <p class="disable-selection"><img src="/assets/apps/paint.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;">
-                                                                                <a href="//jspaint.app" target="popup" onclick="window.open('//jspaint.app','name','width=1366,height=768')" style="text-decoration:none;"><span style="color: #ffffff;">Paint</span></a>
-
-
-                                                                                <br>
-                                                                                <p>
-                                                                                    <a class="disable-selection">
-                                                                                        <a href="//www.google.com/logos/fnbx/solitaire/standalone.html" target="popup" onclick="window.open('//www.google.com/logos/fnbx/solitaire/standalone.html','name','width=1366,height=768')" <p class="disable-selection"><img src="/assets/apps/solitaire.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;">
-                                                                                            <a href="//www.google.com/logos/fnbx/solitaire/standalone.html" target="popup" onclick="window.open('//www.google.com/logos/fnbx/solitaire/standalone.html','name','width=1366,height=768')" style="text-decoration:none;" class="disable-selection"><span style="color: #ffffff;">Solitare</span></a>
-
-
-                                                                                            <br>
-                                                                                            <a href="//online-voice-recorder.com" target="popup" onclick="window.open('//online-voice-recorder.com','name','width=1366,height=768')">
-                                                                                                <p class="disable-selection"><img src="/assets/apps/recorder.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;">
-                                                                                                    <a href="//online-voice-recorder.com" target="popup" onclick="window.open('//online-voice-recorder.com','name','width=1366,height=768')" style="text-decoration:none;"><span style="color: #ffffff;">Voice Recorder</span></a>
-
-
-                                                                                                    <br>
-                                                                                                    <a href="//www.msn.com/weather" target="popup" onclick="window.open('//www.msn.com/weather','name','width=1366,height=768')">
-                                                                                                        <p class="disable-selection"><img src="/assets/apps/weather.svg" width="42" height="42" align="left" onContextMenu="return false;" ondragstart="return false;" img style="float: left; padding-right: 5px;">
-                                                                                                            <a href="//www.msn.com/weather" target="popup" onclick="window.open('//www.msn.com/weather','name','width=1366,height=768')" style="text-decoration:none;"><span style="color: #ffffff;">Weather</span></a>
-
-
-        </div>
-        <div class="element2">
-            <hr align="left" color="#024242" size="-50%">
-            <div class="element2">
-                <div class="element2"> <iframe src="/embed.html" style="padding-right: 6px;" style="border:0px #ffffff none;" name="Start" scrolling="no" frameborder="0" height="130px" width="100%" style="background-color: #055555"></iframe></div>
 </body>
 
 </html>
