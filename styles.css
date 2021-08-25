@@ -254,6 +254,7 @@ div.notfound {
     max-width: 640px;
     margin: 0 auto;
     padding: 4rem 2rem;
+    word-wrap: break-word;
 }
 
 div.lost2 {
