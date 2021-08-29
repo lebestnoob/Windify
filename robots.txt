@@ -1,1 +1,2 @@
 Sitemap: https://windify.netlify.app/sitemap.xml
+Disallow: /404.html
