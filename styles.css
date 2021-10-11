@@ -189,6 +189,11 @@ div.smallcontent {
     font-size: 100%;
 }
 
+div.nopadding {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
 span.smallcontent {
     color: #777;
 }
